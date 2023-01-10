@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(to bottom, #00bfff, #FFFFFF); /* creates a linear gradient from blue to white */
+    font-family: Arial, sans-serif; /* sets the font family for the entire website */
+    color: #333333; /* sets the default text color */
+  }
+  
+  /* Add hover effect to navigation links */
+  nav a:hover {
+      color: #fa8072;
+      text-decoration: underline;
+  }
+  
+  /* Add font styles to headings */
+  h1, h2, h3 {
+      font-weight: bold;
+  }
+  
+  /* Style the images */
+  img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px; /* adds rounded corners to the images */
+      box-shadow: 2px 2px 5px #ddd; /* adds a subtle shadow to the images */
+      transition: all 0.3s ease; /* adds a smooth transition effect */
+  }
+  img:hover {
+      transform: scale(1.1); /* adds a hover effect to increase the size of the image
+  
